@@ -2,6 +2,6 @@ require 'bundler'
 Bundler.require
 
 $:.unshift File.expand_path("./../lib", __FILE__)
-require 'game'
+require 'application'
 
-Game.new.perform
+Application.new.perform
